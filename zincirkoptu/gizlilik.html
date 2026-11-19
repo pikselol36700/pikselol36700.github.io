@@ -3,8 +3,9 @@
   Zincir Koptu: Pedal Rush gizlilik politikası (19 Kasım 2026; Sweet Climb'ın politikası örnek alındı).
   Oyunda şu an (bisiklet-parki projesi, 19 Kas): ödüllü reklam (LevelPlay 29ae601cd; ağlar ironSource + Unity Ads + AdMob),
   Avrupa onay penceresi (UMP, PikselOL kiti Consent), Google Play'de değerlendirme linki (ReviewPrompt), "Oyunlarımız" mağaza linkleri.
-  Oyunda YOK: hesap/giriş, bulut kaydı, sıralama, analitik, bildirim, sürüm denetimi, satın alma.
-  OYUN BİTİNCE GÜNCELLE: uygulama içi satın alma eklenirse 3. bölüme satın alma paragrafı (Sweet Climb'daki gibi), analitik/bildirim/
+  Uygulama içi satın alma (Unity IAP 5.4.4, SatinAlma.cs; 19 Kas eklendi): reklamsiz (tek seferlik), disli_kucuk/orta/buyuk (1.000/3.000/8.000 dişli).
+  Oyunda YOK: hesap/giriş, bulut kaydı, sıralama, analitik, bildirim, sürüm denetimi.
+  OYUN BİTİNCE GÜNCELLE: analitik/bildirim/
   sürüm denetimi/çevrimiçi özellik eklenirse 2. bölüm (Sweet Climb'daki maddeler), veri silme bölümü. Hedef kitle 13+ varsayıldı
   (Play hedef kitle formu ve LevelPlay/AdMob COPPA ayarı bununla aynı olmalı).
   Yayın yeri (19 Kas): https://pikselol36700.github.io/zincirkoptu/gizlilik.html (GitHub Pages, pikselol36700.github.io deposu).
@@ -28,7 +29,7 @@
 <body>
 
 <h1>Zincir Koptu: Pedal Rush – Gizlilik Politikası</h1>
-<p class="meta">Geliştirici: PikselOL Games · Son güncelleme: 19 Kasım 2026</p>
+<p class="meta">Geliştirici: PikselOL Games · Son güncelleme: 19 Kasım 2026 (uygulama içi satın alımlar eklendi)</p>
 
 <p>Bu gizlilik politikası, PikselOL Games tarafından geliştirilen <strong>Zincir Koptu: Pedal Rush</strong> mobil oyununu ("Oyun") kullanırken hangi bilgilerin toplandığını ve nasıl kullanıldığını açıklar.</p>
 
@@ -36,7 +37,7 @@
 <p>PikselOL Games, Oyun aracılığıyla adınız, e-posta adresiniz, telefon numaranız veya konumunuz gibi kişisel bilgilerinizi <strong>toplamaz ve sunucularına göndermez</strong>. Oyunda hesap açma veya giriş yoktur.</p>
 <p>Oyun ilerlemeniz (en yüksek skor, toplanan dişliler, görevler, garajda açtıklarınız) ve ayarlarınız (ses, müzik, titreşim) yalnızca cihazınızda saklanır. Oyunu sildiğinizde bu bilgiler de silinir.</p>
 
-<h2>2. Reklamlar ve üçüncü taraf hizmetler</h2>
+<h2>2. Reklamlar, satın alımlar ve üçüncü taraf hizmetler</h2>
 <p>Oyun ücretsizdir ve isteğe bağlı ödüllü reklamlar gösterebilir (ör. bir ödül karşılığında "Reklam izle" düğmesi). Reklamlar <strong>Unity LevelPlay</strong> reklam aracılık hizmeti ve onun bağlı olduğu reklam ağları (Unity Ads, ironSource Ads ve <strong>Google AdMob</strong>) tarafından sunulur. Bu hizmetler, reklam göstermek, reklam sıklığını sınırlamak, dolandırıcılığı önlemek ve reklam performansını ölçmek için aşağıdaki bilgileri otomatik olarak toplayabilir:</p>
 <ul>
   <li>Reklam kimliği (Android Advertising ID) ve diğer cihaz tanımlayıcıları</li>
@@ -49,6 +50,7 @@
   <li>Unity (LevelPlay ve Unity Ads): <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
   <li>Google (AdMob ve Google Play Hizmetleri): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> · Google'ın iş ortağı uygulamalarındaki veri kullanımı: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
 </ul>
+<p><strong>Uygulama içi satın alımlar:</strong> Oyunda isteğe bağlı, tek seferlik Reklamsız paketi ve dişli paketleri (1.000, 3.000 ve 8.000 dişli) satılır; Reklamsız paketini alanlar ödülleri reklam izlemeden alır, dişli paketleri oyundaki dişli bakiyesine eklenir. Ödeme tamamen Google Play üzerinden yapılır; kart ve ödeme bilgilerinizi biz görmeyiz. Satın aldığınız paket Google Play hesabınıza bağlıdır ve Unity In-App Purchasing ile doğrulanır; Oyun, Reklamsız paketini geri getirmek için Google Play'deki satın alımlarınızı okur (<em>Market → Satın alımları geri yükle</em>). İade ve ödeme soruları Google Play'in koşullarına tabidir.</p>
 <p>Oyundaki "Oyunu değerlendir", "Oyunlarımız" ve "Gizlilik politikası" düğmeleri Google Play'i ya da bu sayfayı açar; orada o hizmetlerin kendi koşulları geçerlidir.</p>
 
 <h2>3. Kişiselleştirilmiş reklamları kapatma</h2>
@@ -62,7 +64,7 @@
 <p>Oyun ilerlemesi yalnızca cihazınızda tutulur ve bizim sunucularımıza gönderilmez. Reklam sağlayıcılarının topladığı veriler, onların politikalarında belirtilen süre ve güvenlik önlemleriyle, şifreli bağlantıyla aktarılır ve saklanır.</p>
 
 <h2 id="veri-silme">6. Verilerinizin silinmesi</h2>
-<p>Oyun hesap kullanmadığı için bizde sizinle ilişkili bir hesap ya da veri bulunmaz. Cihazınızdaki ilerlemeyi oyunu kaldırarak ya da Android ayarlarında Zincir Koptu için "Verileri temizle" ile silebilirsiniz. Reklam ağlarının topladığı veriler için reklam kimliğinizi <em>Ayarlar → Google → Reklamlar</em> bölümünden silebilirsiniz. Sorularınız için aşağıdaki adrese yazabilirsiniz.</p>
+<p>Oyun hesap kullanmadığı için bizde sizinle ilişkili bir hesap ya da veri bulunmaz. Cihazınızdaki ilerlemeyi oyunu kaldırarak ya da Android ayarlarında Zincir Koptu için "Verileri temizle" ile silebilirsiniz. Reklam ağlarının topladığı veriler için reklam kimliğinizi <em>Ayarlar → Google → Reklamlar</em> bölümünden silebilirsiniz. Satın aldığınız paketler Google Play hesabınızda kalır (Google Play'in kaydıdır). Sorularınız için aşağıdaki adrese yazabilirsiniz.</p>
 
 <h2>7. Değişiklikler</h2>
 <p>Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm her zaman bu sayfada yayımlanır; "Son güncelleme" tarihi değişir.</p>
@@ -73,7 +75,7 @@
 <hr>
 
 <h1 lang="en">Zincir Koptu: Pedal Rush – Privacy Policy</h1>
-<p class="meta">Developer: PikselOL Games · Last updated: November 19, 2026</p>
+<p class="meta">Developer: PikselOL Games · Last updated: November 19, 2026 (in-app purchases added)</p>
 
 <div lang="en">
 <p>This privacy policy explains what information is collected and how it is used when you play <strong>Zincir Koptu: Pedal Rush</strong> ("the Game"), a mobile game developed by PikselOL Games.</p>
@@ -82,7 +84,7 @@
 <p>PikselOL Games does <strong>not collect</strong> personal information such as your name, e-mail address, phone number or location, and does not send such information to its servers. The Game has no account or sign-in.</p>
 <p>Your game progress (best score, collected gears, missions, items unlocked in the garage) and settings (sound, music, vibration) are stored only on your device and are deleted when you uninstall the Game.</p>
 
-<h2>2. Advertising and third-party services</h2>
+<h2>2. Advertising, purchases and third-party services</h2>
 <p>The Game is free and may show optional rewarded ads (for example a "Watch ad" button for a reward). Ads are served by the <strong>Unity LevelPlay</strong> ad mediation service and the ad networks connected to it (Unity Ads, ironSource Ads and <strong>Google AdMob</strong>). To show ads, limit how often they appear, prevent fraud and measure ad performance, these services may automatically collect:</p>
 <ul>
   <li>The advertising ID (Android Advertising ID) and other device identifiers</li>
@@ -95,6 +97,7 @@
   <li>Unity (LevelPlay and Unity Ads): <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
   <li>Google (AdMob and Google Play services): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> · How Google uses data from partner apps: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
 </ul>
+<p><strong>In-app purchases:</strong> The Game sells an optional one-time No Ads pack and gear packs (1,000, 3,000 and 8,000 gears); with No Ads you get rewards without watching ads, and gear packs are added to your in-game gear balance. Payment is handled entirely by Google Play; we never see your card or payment details. Purchased packs are linked to your Google Play account and verified with Unity In-App Purchasing; to restore the No Ads pack, the Game reads your purchases from Google Play (<em>Market → Restore purchases</em>). Refunds and payment questions are subject to Google Play's terms.</p>
 <p>The "Rate the game", "Our Games" and "Privacy policy" buttons in the Game open Google Play or this page; their own terms apply there.</p>
 
 <h2>3. Opting out of personalized ads</h2>
@@ -108,7 +111,7 @@
 <p>Game progress is kept only on your device and is not sent to our servers. Data collected by ad providers is transferred over encrypted connections and kept for the periods and with the safeguards described in their policies.</p>
 
 <h2 id="data-deletion">6. Deleting your data</h2>
-<p>Because the Game uses no account, we hold no account or data linked to you. You can delete the progress on your device by uninstalling the Game or with "Clear data" for Zincir Koptu in Android settings. For data collected by ad networks, you can delete your advertising ID under <em>Settings → Google → Ads</em>. You can write to the address below with any questions.</p>
+<p>Because the Game uses no account, we hold no account or data linked to you. You can delete the progress on your device by uninstalling the Game or with "Clear data" for Zincir Koptu in Android settings. For data collected by ad networks, you can delete your advertising ID under <em>Settings → Google → Ads</em>. Purchased packs remain on your Google Play account (Google Play's record). You can write to the address below with any questions.</p>
 
 <h2>7. Changes</h2>
 <p>We may update this policy from time to time. The current version is always published on this page and the "Last updated" date changes.</p>
